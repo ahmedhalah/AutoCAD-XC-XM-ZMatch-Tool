@@ -1,62 +1,62 @@
-# 🚀 XC & XM Automation Tool for AutoCAD
-> **The Professional Way to Match Elevations & Connect Blocks**
+
 > *الحل الأمثل لربط البلوكات ومطابقة المناسيب بشكل آلي واحترافي
-
+> # 🚀 XC & XM Automation Tool for AutoCAD
+> **The Universal Solution for Engineering Connections & Elevation Matching**
+> *الأداة الشاملة لربط العناصر ومطابقة المناسيب لمختلف التخصصات الهندسية*
 https://github.com/user-attachments/assets/86d52346-f2fa-4188-a171-0985b314e6a7
-
-*
 
 ---
 
 ## 🇺🇸 English Description
 
 ### ✨ Overview
-**XC & XM Power Tool** is a specialized AutoCAD add-on (LISP) designed for surveying and civil engineering professionals. It automates the tedious task of matching blocks to curves and creating 3D connections, saving hours of manual drafting.
+**XC & XM Power Tool** is a high-performance AutoCAD add-on (LISP) designed to automate repetitive drafting tasks. While essential for **Civil & Surveying**, it is a game-changer for **MEP, Firefighting, and Hydraulic** engineers who need to connect hundreds of components to main service lines instantly.
 
 ### 🛠 Main Commands
-* **`XC` Command:** Automatically detects the nearest point on a curve (3D Polyline, Arc, or Spline) and creates a 3D connection from the block's insertion point.
-* **`XM` Command:** Instantly moves selected blocks to match the exact elevation (Z-coordinate) of the nearest curve.
+* **`XC` Command:** Automatically detects the nearest point on a path (3D Polyline, Pipe, or Duct) and creates a precise 3D connection from the component (Block).
+* **`XM` Command:** Instantly moves components to match the exact elevation (Z-coordinate) of the main path, ensuring perfect 3D coordination.
+
+### 🎯 Who is this for?
+* **Civil & Road Engineers:** Connect survey points to centerlines.
+* **Firefighting Designers:** Connect Sprinklers to main pipes in seconds.
+* **MEP & Electrical:** Link sensors, lights, or outlets to cable trays or ducts.
+* **Hydraulic Engineers:** Match Manholes and Catch Basins to pipe invert levels.
 
 ### 📥 Installation & Setup
-To ensure the tool works correctly, follow these critical steps:
-1.  **Download** the `xc_xm_zmatch_final_pro.fas` file.
-2.  **Add Folder to AutoCAD Paths:**
-    * Type `OPTIONS` in AutoCAD > **Files** Tab.
-    * Add the folder to **Support File Search Path**.
-    * Add the same folder to **Trusted Locations**.
-3.  **Load:** Use the `APPLOAD` command to load the `.fas` file.
-
-### ⏳ Trial Period
-This version includes a **7-Day Free Trial** with all features enabled.
+1. **Download** `xc_xm_zmatch_final_pro.fas`.
+2. **Setup Paths (Critical):** - Type `OPTIONS` > **Files** Tab.
+   - Add folder to **Support File Search Path** & **Trusted Locations**.
+3. **Load:** Use `APPLOAD` to load the file.
 
 ---
 
 ## 🇸🇦 الوصف العربي
 
 ### ✨ نظرة عامة
-**XC & XM Power Tool** هي إضافة احترافية للأوتوكاد مصممة خصيصاً لمهندسي المساحة والطرق والمشاريع الهندسية. تقوم الأداة بأتمتة عمليات ربط البلوكات بالمسارات ومطابقة المناسيب، مما يوفر ساعات من العمل اليدوي المرهق.
+أداة **XC & XM Power Tool** هي إضافة متطورة للأوتوكاد تهدف إلى أتمتة عمليات الرسم الهندسي التكرارية. بالرغم من أهميتها القصوى لمهندسي **المساحة والطرق**، إلا أنها تعتبر أداة لا غنى عنها لمهندسي **الميكانيكا (MEP)، إطفاء الحريق، والهيدروليك** لربط مئات العناصر بخطوط الخدمة الرئيسية في ثوانٍ.
 
 ### 🛠 الأوامر الرئيسية
-* **أمر `XC`:** يقوم بالبحث عن أقرب نقطة على المسار (3D Polyline, Arc, Spline) وإنشاء خط توصيل 3D من نقطة إدراج البلوك.
-* **أمر `XM`:** يقوم بنقل البلوكات المختارة فوراً لتطابق منسوب (Z) المسار تماماً في الفراغ.
+* **أمر `XC`:** يقوم بالبحث عن أقرب نقطة على المسار (ماسورة، مجرى هواء، أو خط مساحي) وإنشاء خط توصيل 3D دقيق من العنصر (Block).
+* **أمر `XM`:** يقوم بنقل العناصر فوراً لتطابق منسوب (Z) المسار الرئيسي تماماً، مما يضمن دقة عالية في التنسيق ثلاثي الأبعاد.
 
-### 📥 طريقة التثبيت والتشغيل
-لضمان عمل الأداة وتفعيل الفترة التجريبية، يرجى اتباع الآتي:
-1.  **تحميل** ملف `xc_xm_zmatch_final_pro.fas`.
-2.  **تعريف المسارات (خطوة هامة جداً):**
-    * اكتب الأمر `OPTIONS` داخل أوتوكاد > اذهب لتبويب **Files**.
-    * أضف مجلد الأداة إلى **Support File Search Path**.
-    * أضف نفس المجلد إلى **Trusted Locations**.
-3.  **التحميل:** استخدم أمر `APPLOAD` لاختيار وتحميل الملف.
+### 🎯 التخصصات المستفيدة
+* **مهندسو الطرق والمساحة:** ربط نقاط الرفع المساحي بمحاور الطرق.
+* **مهندسو إطفاء الحريق:** ربط الرشاشات (Sprinklers) بالمواسير الرئيسية بضغطة زر.
+* **مهندسو الكهرباء والميكانيكا:** ربط الحساسات والكشافات بمسارات الكوابل (Cable Trays) أو الـ Ducts.
+* **مهندسو الهيدروليك:** مطابقة مناسيب غرف التفتيش وبالوعات الأمطار مع مسارات المواسير.
 
-### ⏳ الفترة التجريبية
-هذه النسخة تمنحك صلاحية كاملة لتجربة كافة المميزات مجاناً لمدة **7 أيام**.
+### 📥 طريقة التثبيت
+1. **تحميل** ملف `xc_xm_zmatch_final_pro.fas`.
+2. **ضبط المسارات (خطوة هامة):** - اكتب `OPTIONS` > اذهب لتبويب **Files**.
+   - أضف المجلد لـ **Support File Search Path** وأيضاً لـ **Trusted Locations**.
+3. **التحميل:** استخدم أمر `APPLOAD` لتشغيل الأداة.
 
 ---
 
 ## 💎 Get the Full Version / الحصول على النسخة الكاملة
-**Want to remove the 7-day limit? Get your permanent lifetime license now!**
-**هل تريد إزالة حد الـ 7 أيام؟ احصل على رخصتك الدائمة الآن!**
+**Remove the 7-day trial limit and get your permanent license now!**
+**تخلص من حد الـ 7 أيام واحصل على رخصتك الدائمة الآن!**
+
 
 📧 **Email:** [eng.ahmedhalal@gmail.com]
 📱 **WhatsApp:** [+967775334742]
