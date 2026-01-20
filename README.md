@@ -22,6 +22,7 @@ https://github.com/user-attachments/assets/86d52346-f2fa-4188-a171-0985b314e6a7
 * **Firefighting Designers:** Connect Sprinklers to main pipes in seconds.
 * **MEP & Electrical:** Link sensors, lights, or outlets to cable trays or ducts.
 * **Hydraulic Engineers:** Match Manholes and Catch Basins to pipe invert levels.
+* **And other specializations.
 
 ### 📥 Installation & Setup
 1. **Download** `xc_xm_zmatch_final_pro.fas`.
@@ -45,6 +46,7 @@ https://github.com/user-attachments/assets/86d52346-f2fa-4188-a171-0985b314e6a7
 * **مهندسو إطفاء الحريق:** ربط الرشاشات (Sprinklers) بالمواسير الرئيسية بضغطة زر.
 * **مهندسو الكهرباء والميكانيكا:** ربط الحساسات والكشافات بمسارات الكوابل (Cable Trays) أو الـ Ducts.
 * **مهندسو الهيدروليك:** مطابقة مناسيب غرف التفتيش وبالوعات الأمطار مع مسارات المواسير.
+* **وتخصصات أخرى.
 
 ### 📥 طريقة التثبيت
 1. **تحميل** ملف `xc_xm_zmatch_final_pro.fas`.
